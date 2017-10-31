@@ -38,7 +38,42 @@
 <body id="page-top" ng-app="hackcu2017" style="background-color: #220B0D;">
 
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <?php include('sections/navbar.php'); ?>
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" id="brand-text" href="/#page-top">HackCU 2017</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="/#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/#faq">FAQ</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/#schedule">Schedule</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/#sponsors">Sponsors</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/#team">Team</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
 </nav>
 
 
@@ -112,7 +147,37 @@
 
 
 <footer>
-    <?php include('sections/footer.php'); ?>
+    <div class="container">
+        <p>Made with <i class="fa fa-heart"></i> by HackCU</p>
+        <div class="row">
+            <div class="col-lg-4">
+                <ul>
+                    <li>
+                        <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH Code</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+            </div>
+            <div class="col-lg-4">
+                <ul>
+                    <li>
+                        <a href="https://localday2016.hackcu.org/" target="_blank" >Local Hack Day 2016</a>
+                    </li>
+                    <li>
+                        <a href="https://2016.hackcu.org/" target="_blank">HackCU 2016</a>
+                    </li>
+                    <li>
+                        <a href="https://localday2015.hackcu.org/" target="_blank" >Local Hack Day 2015</a>
+                    </li>
+                    <li>
+                        <a href="https://startups2students.hackcu.org/" target="_blank">Startup2Students</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>
 
 <!-- jQuery -->
