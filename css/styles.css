@@ -1,4 +1,11 @@
+@font-face {
+    font-family: Biko;
+    src: url("../fonts/Biko_Regular.otf");
+    url('../fonts/Biko_Regular.otf'); /* IE */
+}
+
 body {
+  font-family: 'Biko';
   -webkit-font-smoothing: antialiased;
 }
 
