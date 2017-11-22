@@ -31,6 +31,7 @@ Deployment is done automatically by [GitHub pages](https://pages.github.com/). Y
 1. Remove background
 1. Resize the image to `600 x 400 px` centering
 3. Archive the original `.png` file in the corresponding `originals/` folder
+For more info, read the [guidelines](.github/CONTRIBUTING.md#adding-a-new-sponsor-or-partner-logo)
 
 ## Want to contribute?
 
