@@ -7,10 +7,13 @@
                 <ul class="list-inline">
                     {% for link in site.data.footer_links %}
                     {%if link.line_break%}<br/>{%endif%}
-                    <li>{%if link.url%}
-                        <a class="text-imp" target="_blank" href="{{ link.url }}">
-                            {%endif%}
-                            {{ link.name|upcase }}{%if link.url%}</a>{%endif%}
+                    <li>
+                        {%if link.url%}<a class="text-imp" target="_blank" href="{{ link.url }}">{%endif%}
+                        {{ link.name|upcase }}
+                        {%if link.url%}</a>{%endif%}
+                        {%if link.devpost%}
+                        &nbsp;·&nbsp; <a class="text-imp" target="_blank" href="{{ link.devpost }}">DevPost</a>
+                        {%endif%}
                     </li>
 
                     {%endfor%}
